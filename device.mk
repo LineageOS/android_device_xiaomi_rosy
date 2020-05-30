@@ -71,11 +71,10 @@ PRODUCT_PACKAGES += \
 
 # Ramdisk
 PRODUCT_PACKAGES += \
-    init.rosy.rc \
+    init.rosy.rc
 
 PRODUCT_PACKAGES += \
-    init.goodix.sh \
-    init.baseband.sh \
+    init.goodix.sh
 
 # Releasetools
 TARGET_RELEASETOOLS_EXTENSIONS := device/xiaomi/rosy
