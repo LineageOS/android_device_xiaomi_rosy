@@ -34,8 +34,6 @@
          config_proximityCheckOnWake must be true. -->
     <bool name="config_proximityCheckOnFingerprintWake">true</bool>
 
-	<bool name="config_cleanupUnusedFingerprints">false</bool>
-
     <!-- Specify custom blanking delay of the display -->
     <integer name="config_screen_off_delay">0</integer>
 
@@ -51,9 +49,6 @@
 
     <!-- Allow automatic adjusting of the screen brightness while dozing in low power state. -->
     <bool name="config_allowAutoBrightnessWhileDozing">true</bool>
-
-	<!-- Enable support for camera api v2 -->
-    <bool name="support_camera_api_v2">true</bool>
 
     <!-- Display mode remapping table.
          If the mode names returned by the backend do not match
