@@ -45,10 +45,6 @@ on boot
     chmod 0700 /sys/devices/soc/soc:fpc1020/vendor
     chmod 0600 /data/misc/fpc/calibration_image.pndat
 
-# DT2W node
-    chmod 0660 /proc/gesture/onoff
-    chown system system /proc/gesture/onoff
-
 # fingerprint-goodix
 service goodix_script /vendor/bin/init.goodix.sh
     class late_start
