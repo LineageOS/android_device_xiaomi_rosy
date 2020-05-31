@@ -76,24 +76,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     init.goodix.sh
 
-# Releasetools
-TARGET_RELEASETOOLS_EXTENSIONS := device/xiaomi/rosy
-
-# Ship Miui Firmware
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/firmware/adspso.bin:install/firmware-update/adspso.bin \
-    $(LOCAL_PATH)/firmware/cmnlib64_30.mbn:install/firmware-update/cmnlib64_30.mbn \
-    $(LOCAL_PATH)/firmware/cmnlib_30.mbn:install/firmware-update/cmnlib_30.mbn \
-    $(LOCAL_PATH)/firmware/devcfg.mbn:install/firmware-update/devcfg.mbn \
-    $(LOCAL_PATH)/firmware/emmc_appsboot.mbn:install/firmware-update/emmc_appsboot.mbn \
-    $(LOCAL_PATH)/firmware/keymaster.mbn:install/firmware-update/keymaster.mbn \
-    $(LOCAL_PATH)/firmware/lksecapp.mbn:install/firmware-update/lksecapp.mbn \
-    $(LOCAL_PATH)/firmware/NON-HLOS.bin:install/firmware-update/NON-HLOS.bin \
-    $(LOCAL_PATH)/firmware/rpm.mbn:install/firmware-update/rpm.mbn \
-    $(LOCAL_PATH)/firmware/sbl1.mbn:install/firmware-update/sbl1.mbn \
-    $(LOCAL_PATH)/firmware/tz.mbn:install/firmware-update/tz.mbn \
-    $(LOCAL_PATH)/firmware/splash.img:install/firmware-update/splash.img
-
 # Sensors
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/sensors/sensor_def_qcomdev.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/sensor_def_qcomdev.conf
