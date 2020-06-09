@@ -47,5 +47,7 @@ ENABLE_VENDOR_RIL_SERVICE := true
 # Vendor security Patch
 VENDOR_SECURITY_PATCH := 2020-05-05
 
+BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy
+
 # Inherit from the proprietary version
 -include vendor/xiaomi/rosy/BoardConfigVendor.mk
