@@ -1,0 +1,2 @@
+# Goodix script
+/vendor/bin/init\.goodix\.sh                  u:object_r:vendor_file:s0
