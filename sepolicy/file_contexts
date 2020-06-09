@@ -1,2 +1,5 @@
 # Goodix script
 /vendor/bin/init\.goodix\.sh                  u:object_r:vendor_file:s0
+
+# Light hal
+/(vendor|system/vendor)/bin/hw/android\.hardware\.light@2\.0-service\.xiaomi_rosy    u:object_r:hal_light_default_exec:s0
