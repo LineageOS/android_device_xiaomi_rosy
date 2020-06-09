@@ -1,0 +1,2 @@
+ro.boot.fpsensor					u:object_r:fingerprint_prop:s0
+persist.sys.fp.vendor					u:object_r:fingerprint_prop:s0
