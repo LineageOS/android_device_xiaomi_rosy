@@ -1,0 +1,2 @@
+allow system_server vendor_alarm_boot_prop:file { read open };
+
