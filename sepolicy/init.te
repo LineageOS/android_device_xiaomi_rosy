@@ -1,0 +1,5 @@
+allow init sysfs_leds:lnk_file read;
+allow init hidl_base_hwservice:hwservice_manager add;
+allow init hwservicemanager:binder { transfer call };
+allow init sysfs_graphics:file { write open };
+allow init sysfs:file setattr;

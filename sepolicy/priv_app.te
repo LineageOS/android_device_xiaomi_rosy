@@ -1,0 +1,6 @@
+allow priv_app sysfs:dir { open };
+allow priv_app sysfs:file { getattr open };
+allow priv_app proc_interrupts:file { open };
+allow priv_app proc_modules:file { open };
+allow priv_app proc:file { open };
+allow priv_app device:dir open;
