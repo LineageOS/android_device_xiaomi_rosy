@@ -74,6 +74,7 @@ PRODUCT_PACKAGES += \
     init.rosy.rc
 
 PRODUCT_PACKAGES += \
+    init.class_main.sh \
     init.goodix.sh
 
 # Sensors
