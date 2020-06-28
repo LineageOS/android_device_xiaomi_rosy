@@ -22,7 +22,6 @@ DEVICE_PATH := device/xiaomi/rosy
 TARGET_SPECIFIC_HEADER_PATH := $(DEVICE_PATH)/include
 
 # Kernel
-BOARD_KERNEL_CMDLINE := console=ttyHSL0,115200,n8 androidboot.console=ttyHSL0 androidboot.hardware=qcom msm_rtb.filter=0x237 ehci-hcd.park=3 lpm_levels.sleep_disabled=1 androidboot.bootdevice=7824900.sdhci earlycon=msm_hsl_uart,0x78af000 loop.max_part=7 androidboot.usbconfigfs=false
 TARGET_KERNEL_CONFIG := rosy-perf_defconfig
 TARGET_KERNEL_VERSION := 3.18
 
