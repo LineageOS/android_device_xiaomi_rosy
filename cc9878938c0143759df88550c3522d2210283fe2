@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "d44b32de_4581432c",
+        "filename": "sepolicy/file_contexts",
+        "patchSetId": 1
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2020-07-20T03:52:49Z",
+      "side": 1,
+      "message": "isn\u0027t there a vendor_executable file type or something?",
+      "range": {
+        "startLine": 2,
+        "startChar": 57,
+        "endLine": 2,
+        "endChar": 68
+      },
+      "revId": "cc9878938c0143759df88550c3522d2210283fe2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
